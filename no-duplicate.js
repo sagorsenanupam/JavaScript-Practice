@@ -16,4 +16,4 @@ function noDuplicate(arr){
     }
     console.log(unique);
 }
-noDuplicate(biriyaniKhor);
+noDuplicate(numbers);
