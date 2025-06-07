@@ -16,5 +16,16 @@ function getCheapestPhone(phones){
     }
     return min;
 }
+function getCostlyPhone(phones){
+    let max = phones[0];
+    for (const phone of phones){
+        if (phone.price > max.price) {
+            max = phone;
+        }
+    }
+    return max;
+}
 const cheap = getCheapestPhone(phones);
 console.log(cheap);
+const costly = getCostlyPhone(phones);
+console.log(costly);
