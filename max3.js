@@ -8,3 +8,7 @@ if (jim > time && jim > kim) {
 }else if (kim > jim && kim > time) {
     console.log("Kim wins");
 }
+
+
+const max = Math.max(12,1,85,96,114,52,520);
+console.log(max); 
